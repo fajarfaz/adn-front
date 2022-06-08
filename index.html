@@ -88,7 +88,7 @@
 	<div id="loader" class="inset-0 m-auto"> 
 		<img src="11.png" class="object-contain animate-pulse">
 	</div>
-	<div style="background-image: url(bg.svg);"  id="myDiv"  class="bg-cover overflow-x-hidden animate-bottom ">
+	<div id="myDiv"  class="bg-[url('bg.svg')] bg-cover overflow-x-hidden animate-bottom ">
 
 		<nav class="bg-[#232222] text-white border-gray-200 px-4 md:px-20 lg:px-40 xl:px-52 py-4 rounded fixed z-40 w-full" data-aos="zoom-in-top" data-aos-duration="800"  x-data="{open: false , isOpen : false}" >
 			<div class="container flex flex-wrap justify-between items-center mx-auto">
@@ -146,8 +146,8 @@
 			</div>
 		</nav>
 
-		<div style="background-image: url('bg-top.jpg');" class="bg-contain md:mx-10 lg:mx-20 shadow-xl mt-20 rounded-b-[54px]" data-aos="fade-down">
-			<div class="w-full h-full backdrop-blur-lg text-white rounded-none md:rounded-b-[50px] md:px-10 lg:px-24 xl:px-36 py-10 lg:py-16 xl:py-20 relative" style="background: linear-gradient(112.51deg, rgba(40, 33, 38, 0.8) 27.75%, rgba(109, 10, 207, 0) 122.45%);">
+		<div class="container bg-[url('bg-top.jpg')] bg-contain mx-auto shadow-xl mt-20 rounded-b-[54px]" data-aos="fade-down">
+			<div class=" h-full backdrop-blur-lg text-white rounded-none md:rounded-b-[50px] md:px-10 lg:px-24 xl:px-36 py-10 lg:py-16 xl:py-20 relative" style="background: linear-gradient(112.51deg, rgba(40, 33, 38, 0.8) 27.75%, rgba(109, 10, 207, 0) 122.45%);">
 				<div class="flex md:flex-row flex-col ">
 					<h1 class="text-3xl md:text-4xl xl:text-6xl lg:text-5xl font-bold md:leading-snug lg:leading-snug xl:leading-snug z-10 w-100 md:w-8/12 md:px-0 px-8 md:pb-0 pb-8  text-center md:text-left"  data-aos="zoom-in-right" data-aos-duration="500">
 						We help you 
@@ -169,8 +169,8 @@
 
 				</div>
 
-				<div class="flex flex-row items-center space-x-6 md:space-x-10 px-8 md:px-10 lg:px-16 xl:px-32 mt-10 text-xs md:text-base lg:text-lg">
-					<button class="rounded-full bg-gradient-to-bl from-orange-500 to-orange-600 text-white font-semibold  py-5 md:px-8 lg:px-12 tracking-wider w-72 shadow-lg duration-500 hover:shadow-orange-500/50"><span class="hidden md:inline-block"> Start your dream</span> <span class="md:hidden inline-block"> Start now</span></button>
+				<div class="mx-auto flex flex-row items-center space-x-6 md:space-x-10 px-8 md:px-10 lg:px-16 xl:px-32 mt-10 text-xs md:text-base lg:text-lg justify-between w-max">
+					<button class="rounded-full bg-gradient-to-bl from-orange-500 to-orange-600 text-white font-semibold  py-5 md:px-8 lg:px-12 tracking-wider w-72 shadow-lg duration-500 hover:shadow-orange-500/50"><span class="hidden md:inline-block"> Start Now</span> <span class="md:hidden inline-block"> Start now</span></button>
 					<button class="rounded-full border border-white text-white font-semibold  py-5 md:px-8 lg:px-12 tracking-wider w-72 duration-300 hover:bg-white hover:text-gray-700">See our work</button>
 
 				</div>
@@ -182,7 +182,7 @@
 			</div>
 		</div>
 
-		<section class="flex flex-col space-y-10 px-8 md:px-10 lg:px-36 my-24 text-center">
+		<section class="container mx-auto flex flex-col space-y-10 px-8 md:px-10 lg:px-36 my-24 text-center">
 			<label class="font-semibold md:text-xl lg:text-2xl  text-white tracking-wider" data-aos="zoom-in">
 				Developing ideas from our cool clients to create a digital product
 			</label>
@@ -203,7 +203,7 @@
 			</div>			
 		</section>
 
-		<section class="flex flex-col space-y-10 px-8  md:px-10 lg:px-36 my-24 text-white">
+		<section class="container mx-auto flex flex-col space-y-10 px-8  md:px-10 lg:px-36 my-24 text-white">
 			<label class="font-semibold xl:text-5xl text-4xl tracking-wider" data-aos="fade-right">Services </label>
 
 			<div class="relative flex snap-x md:grid grid-cols-3 gap-8 xl:gap-12 overflow-x-auto">
@@ -245,7 +245,7 @@
 			</div>
 		</section>
 
-		<section class="flex flex-col space-y-10 px-8 md:px-10 lg:px-36 my-24 text-white pb-16">
+		<section class="container mx-auto flex flex-col space-y-10 px-8 md:px-10 lg:px-36 my-24 text-white pb-16">
 			<div class="flex flex-row justify-between items-end">
 				<label class="font-semibold xl:text-5xl text-4xl tracking-wider"  data-aos="fade-right">Portfolio </label>
 				<a href="#" class="group hover:text-gray-400 duration-300 flex flex-row space-x-2 md:space-x-4 items-center text-gray-50 cursor-pointer" >
